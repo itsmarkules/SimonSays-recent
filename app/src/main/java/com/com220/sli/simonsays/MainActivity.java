@@ -292,6 +292,7 @@ public class MainActivity extends AppCompatActivity
             if(keepGoing == true)
             {
                 currentScore++;
+                saveData("saveFile", String.valueOf(currentScore), getApplicationContext());
                 userSequenceString.append(buttonNumber + "");
                 numUserInputs++;
                 textView.setText(userSequenceString.toString());
@@ -316,7 +317,6 @@ public class MainActivity extends AppCompatActivity
                         {
                             puzzlePiece = 0;
                             scoreLevel++;
-                            saveData("saveFile", String.valueOf(currentScore), getApplicationContext());
                             hiScore.setText(String.valueOf(currentScore));
                             randomSequence.clear();
                             randomSequenceString.setLength(0);

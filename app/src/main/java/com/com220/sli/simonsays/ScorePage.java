@@ -53,6 +53,6 @@ public class ScorePage extends AppCompatActivity
             highScore = currentScore;
             highScoreText.setText(highScore + "");
         }
-        
+
     }
 }
