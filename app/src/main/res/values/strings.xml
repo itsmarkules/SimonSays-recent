@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimonSays</string>
+    <string name="action_settings">Sound</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_score_page">ScorePage</string>
+    <string name="title_activity_about_page">AboutPage</string>
+</resources>
